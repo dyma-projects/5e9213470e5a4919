@@ -6,7 +6,8 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./exercice1.component.css"],
 })
 export class Exercice1Component {
-  public Carrer(nbr: number): number {
-    return nbr * nbr;
+  public color = "red";
+  public changeColor(color: string): void {
+    this.color = color;
   }
 }
