@@ -6,11 +6,10 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./exercice1.component.css"],
 })
 export class Exercice1Component {
-  public type_attribut = "date";
-
-  constructor() {
-    setTimeout(() => {
-      this.type_attribut = "text";
-    }, 3000);
-  }
+  title = "Mon exemple";
+  number = "42";
+  bool = "true";
+  Objt = {
+    cle: "valeur",
+  };
 }
