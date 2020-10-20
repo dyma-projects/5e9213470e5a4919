@@ -7,6 +7,7 @@ import { Exercice1Component } from "./exercice1/exercice1.component";
 import { Exercice3Component } from "./exercice3/exercice3.component";
 import { FormsModule } from "@angular/forms";
 import { from } from "rxjs";
+import { Exercice4Component } from './exercice4/exercice4.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { from } from "rxjs";
     Exercice2Component,
     Exercice1Component,
     Exercice3Component,
+    Exercice4Component,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
